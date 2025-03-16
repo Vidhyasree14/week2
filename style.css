@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cdcde0;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Background Image Section */
+.background-images {
+    height: 80vh;
+    background: url('background3.jpg'), url('background1.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.footer {
+    background-attachment: fixed;
+    background-color: rgb(222, 222, 244);
+}
+.background-images1 {
+    height: 80vh;
+    background: url('background2.jpeg'), url('background2.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Tools Section */
+#tools {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#tools h2 {
+    font-size: 2.5em;
+}
+
+.tool-panel, .filter-panel {
+    margin-top: 20px;
+}
+
+label, button {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+/* AI Assist */
+#ai-assist {
+    padding: 40px 20px;
+    background-color: #e6f7ff;
+    text-align: center;
+}
+
+/* Login Section */
+#login {
+    padding: 40px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 300px;
+        margin: auto;
+    }
